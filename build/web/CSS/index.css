@@ -1,0 +1,67 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20-feb-2024, 17:39:22
+    Author     : David
+*/
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px; /* Añadido para limitar el ancho */
+            width: 100%; /* Añadido para asegurar que el contenedor se ajuste correctamente */
+            box-sizing: border-box; /* Añadido para incluir el padding y el borde en el ancho total */
+            margin: 20px; /* Añadido para separar el contenedor del borde de la ventana */
+        }
+        h1, h2, h3 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 10px; /* Añadido para separar los títulos del contenido */
+        }
+        p {
+            color: #666;
+            text-align: justify;
+            margin-bottom: 20px; /* Añadido para separar los párrafos del contenido */
+        }
+        form {
+            text-align: center;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #333;
+        }
+        input[type="text"],
+        input[type="date"],
+        input[type="submit"] {
+            width: calc(100% - 22px); /* Ajustado para tener en cuenta el ancho del borde */
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+

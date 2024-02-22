@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 7 JSP</title>
+    <link rel="stylesheet" href="CSS/index.css">
+</head>
+<body>
+    <header class="container">
+        <h1>Práctica 7 JSP</h1>
+        <h2>David Méndez Fernández</h2>
+        <h3>Descripción</h3>
+        <p>En este proyecto vamos a hacer una página que contenga un formulario para ver cuál es tu signo del zodiaco, además de otras funciones.</p>
+        <a href="verLista.jsp">Ver lista</a>
+        <a href="verTabla.jsp">Ver tabla</a>
+    </header>
+    <main>
+        <section class="container">
+            <h3>Datos</h3>
+            <form action="verZodiaco.jsp" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required><br><br>
+                <label for="fecha">Fecha de nacimiento:</label>
+                <input type="date" id="fecha" name="fecha" required><br><br>
+                <input type="submit" value="Enviar Datos">
+            </form>
+            
+        </section>
+    </main>
+</body>
+</html>
